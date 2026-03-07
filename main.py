@@ -306,7 +306,7 @@ def load_adj_scatter(num_nodes):
 # DARTS MLP encoder
 # ============================================================
 
-class MLP_DARTS(nn.Module):
+class GraphDARTS(nn.Module):
     """
     Differentiable Architecture Search (DARTS) MLP encoder.
 
@@ -785,7 +785,7 @@ activation_choices = [
 ]
 dropout_rates = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95]
 
-model = MLP_DARTS(
+model = GraphDARTS(
     input_size        = 32,           # dimension of diffused embeddings
     output_choices    = output_choices,
     max_num_layers    = 6,
