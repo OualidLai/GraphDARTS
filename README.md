@@ -95,14 +95,17 @@ GraphDARTS achieves strong performance across **five ORION-AE campaigns**:
 
 ---
 
-If you find this work useful, please cite:
+## 📚 Citation
 
+If you use this work, please cite:
+
+```bibtex
 @article{LAIADI2026114292,
-title = {GraphDARTS: Contrastive graph metric learning for unsupervised differentiable architecture search in Structural Health Monitoring},
-journal = {Mechanical Systems and Signal Processing},
-volume = {253},
-pages = {114292},
-year = {2026},
-doi = {https://doi.org/10.1016/j.ymssp.2026.114292},
-author = {Oualid Laiadi and Ikram Remadna and Mohamed El-Amine Laiadi and Oussama Hadoune and Redouane Drai and Noureddine Zerhouni}
+  title   = {GraphDARTS: Contrastive graph metric learning for unsupervised differentiable architecture search in Structural Health Monitoring},
+  author  = {Laiadi, Oualid and Remadna, Ikram and Laiadi, Mohamed El-Amine and Hadoune, Oussama and Drai, Redouane and Zerhouni, Noureddine},
+  journal = {Mechanical Systems and Signal Processing},
+  volume  = {253},
+  pages   = {114292},
+  year    = {2026},
+  doi     = {10.1016/j.ymssp.2026.114292}
 }
